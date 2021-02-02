@@ -1,0 +1,8 @@
+#!/bin/bash
+echo "Please state cpp file name to compile (without .cpp)"
+read varname
+
+module load gcc
+module load openmpi
+mpiCC -o $varname $varname.cpp
+

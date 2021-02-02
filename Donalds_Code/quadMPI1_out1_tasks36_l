@@ -1,0 +1,88 @@
+raw_sum 1.95219e+06 
+Used 36 threads
+ab = [100,100]
+step = [10000,10000]
+scale 0.0001 
+pieces 100000000 
+quadrature integral = 195.219
+actual integral = 195.216
+ integral error= 0.00348485
+taking 1 seconds
+taking 1e-08 seconds per quad
+raw_sum 7.80862e+06 
+Used 36 threads
+ab = [100,100]
+step = [20000,20000]
+scale 2.5e-05 
+pieces 400000000 
+quadrature integral = 195.216
+actual integral = 195.216
+ integral error= 4.88944e-05
+taking 2 seconds
+taking 5e-09 seconds per quad
+raw_sum 2.16902e+07 
+Used 36 threads
+ab = [100,100]
+step = [33333,33333]
+scale 9.00018e-06 
+pieces 1111088889 
+quadrature integral = 195.216
+actual integral = 195.216
+ integral error= 2.23303e-06
+taking 8 seconds
+taking 7.20014e-09 seconds per quad
+raw_sum 8.67607e+07 
+Used 36 threads
+ab = [100,100]
+step = [66666,66666]
+scale 2.25005e-06 
+pieces 4444355556 
+quadrature integral = 195.216
+actual integral = 195.216
+ integral error= 3.51002e-08
+taking 31 seconds
+taking 6.97514e-09 seconds per quad
+raw_sum 1.95216e+08 
+Used 36 threads
+ab = [100,100]
+step = [100000,100000]
+scale 1e-06 
+pieces 10000000000 
+quadrature integral = 195.216
+actual integral = 195.216
+ integral error= 1.92722e-09
+taking 70 seconds
+taking 7e-09 seconds per quad
+raw_sum 7.80862e+08 
+Used 36 threads
+ab = [100,100]
+step = [200000,200000]
+scale 2.5e-07 
+pieces 40000000000 
+quadrature integral = 195.216
+actual integral = 195.216
+ integral error= 3.5584e-11
+taking 279 seconds
+taking 6.975e-09 seconds per quad
+raw_sum 2.16906e+09 
+Used 36 threads
+ab = [100,100]
+step = [333333,333333]
+scale 9.00002e-08 
+pieces 111110888889 
+quadrature integral = 195.216
+actual integral = 195.216
+ integral error= -8.20336e-10
+taking 771 seconds
+taking 6.93901e-09 seconds per quad
+raw_sum 8.67623e+09 
+Used 36 threads
+ab = [100,100]
+step = [666666,666666]
+scale 2.25e-08 
+pieces 444443555556 
+quadrature integral = 195.216
+actual integral = 195.216
+ integral error= -4.75211e-10
+taking 3083 seconds
+taking 6.93676e-09 seconds per quad

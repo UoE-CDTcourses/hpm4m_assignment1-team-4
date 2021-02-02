@@ -1,0 +1,22 @@
+raw_sum 1.95219e+06 
+Used 4 threads
+ab = [100,100]
+step = [10000,10000]
+scale 0.0001 
+pieces 100000000 
+quadrature integral = 195.219
+actual integral = 195.216
+ integral error= 0.00348484
+taking 6 seconds
+taking 6e-08 seconds per quad
+raw_sum 2.16902e+07 
+Used 4 threads
+ab = [100,100]
+step = [33333,33333]
+scale 9.00018e-06 
+pieces 1111088889 
+quadrature integral = 195.216
+actual integral = 195.216
+ integral error= 2.23315e-06
+taking 68 seconds
+taking 6.12012e-08 seconds per quad

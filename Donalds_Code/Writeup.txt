@@ -1,0 +1,10 @@
+As you can see from [graph1.png], the relationship between the number of cores used and the time taken per quad is almost perfectly inverse. This is what you would expect, with the computations being split up with minimal but non-zero overhead. This is the best case you can ask for with parrellization, a runtime that depends almost exclusively on the amount of compute needed, with almost no slowdown from parallization.
+
+ 
+ [graph2.png] shows that the accuracy is approximately accuracy=res^-6.25*3.8e22
+This makes the accuracy about cubic in the compute used (2x compute -> 1/8 th error) This is about what we would expect based on theoretical reasoning, because the quadrature algorithm used is O(x^6)
+As the floating point can store 16 digits of accuracy, and the answer is arround 195, that means floating point errors around 1e-14. This algorithm will increase in accuracy up to about 700,000 resolution. However [graph3.png ]
+shows the actual accuracy achieved is somewhat lower, at around 200,000 steps.
+
+
+
