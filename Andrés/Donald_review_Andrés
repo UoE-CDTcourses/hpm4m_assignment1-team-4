@@ -1,0 +1,14 @@
+5 stars. 
+  ^      ^      ^      ^      ^    
+<   >  <   >  <   >  <   >  <   >  
+ / \    / \    / \    / \    / \   
+ 
+ Your code makes plentiful use of MPI. As a matter of performance, it would probably be faster if you used it less, but it serves as a good demonstration of parallel technique.
+ For example 
+ buffer=(rank-1)*n_rows+min(rank-1,n_rows)
+ So buffer and assigned_rows could be calculated on the spot when needed, and don't need to be passed back and forth with MPI.
+ Technically you don't need to put the recieve code in a loop, you could use the way that c++ arrays are a contiguous block of memory to move it all in at once.
+ (or would that be the wrong way round)
+ I would also question your use of a vector, when the plane array would have done. Vectors differ by being adjustable length, and have overhead because of it.
+ 
+ I also think you have a memory leak from not garbage collecting the vector, but am new to c++ and not sure.
