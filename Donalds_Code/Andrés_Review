@@ -1,0 +1,10 @@
+# Review
+
+Nice code and nice results! I actually learnt a few tricks here.
+
+Just three suggestions:
+* The code would benefit from a clean-up. There are various lines that are just commented and borrow clarity.
+* The `cout` statements would benefit if you used `printf`.
+* The log-scaled plots would also benefit if you added also that they are in log-scale haha.
+
+I'll give you five starts ⭐️⭐️⭐️⭐️⭐️
